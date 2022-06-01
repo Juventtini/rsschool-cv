@@ -22,7 +22,7 @@
 
 ## About myself:
 
-Last 10 yers worked as a web analyst and SEO specialist. I’m hard-working and ambitious person. I am an excellent team worker and very willing to learn and develop new skills. I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer. I have many different experiences. Already managed to work in the areas of: Logistics, Trade, Warehouse also tried myself as a private entrepreneur. From 2015-2020 was engaged in data analysis and the creation of advertising companies. After a year of thinking about who I want to become, I decided to become a web developer. I have been following this path since the end of 2021.
+I’m hard-working and ambitious person. I am an excellent team worker and very willing to learn and develop new skills. I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer. I have many different experiences. Already managed to work in the areas of: Logistics, Trade, Warehouse also tried myself as a private entrepreneur. From 2015-2020 was engaged in data analysis and the creation of advertising companies. After a year of thinking about who I want to become, I decided to become a web developer. I have been following this path since the end of 2021.
 
 ---
 
