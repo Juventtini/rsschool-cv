@@ -17,6 +17,52 @@ body {
 html {
   font-size: 62.5%; }
 
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%; }
+  .wrapper:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.photo {
+  margin: 0 auto;
+  width: 200px;
+  box-shadow: 0 1px 4px rgba(70, 132, 213, 0.8);
+  display: block; }
+
+.details__name {
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  margin: 4rem 0 0;
+  font-weight: 300;
+  color: #4684d5;
+  font-family: 'Lato', Helvetica, sans-serif;
+  text-align: center; }
+  .details__name--secondary {
+    color: #30ba98; }
+
+.details__profession {
+  text-transform: uppercase;
+  color: #4684d5;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  padding-top: 1rem;
+  text-align: center;
+  border-top: 2px solid #353439; }
+  .details__profession--green {
+    color: #30ba98; }
+
+.column-left {
+  width: 33%;
+  float: left; }
+
+.column-right {
+  float: left;
+  width: 66%; }
+
 .navigation {
   margin-top: 2rem; }
   .navigation__list {
