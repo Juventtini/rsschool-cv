@@ -47,7 +47,7 @@ html {
 .details__profession {
   text-transform: uppercase;
   color: #4684d5;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   letter-spacing: 2px;
   padding-top: 1rem;
   text-align: center;
@@ -55,13 +55,35 @@ html {
   .details__profession--green {
     color: #30ba98; }
 
+.section__title {
+  font-size: 1.8rem;
+  margin: 2rem 0.5rem .5rem;
+  color: #4684d5; }
+
+.section__list {
+  list-style: none; }
+  .section__list li {
+    padding-left: 1rem; }
+    .section__list li:not(:first-child) {
+      margin-top: 1rem; }
+
+.section__subtitle {
+  color: #30ba98; }
+
+.about {
+  margin: 1.5rem 3rem; }
+  .about p {
+    line-height: 1.7; }
+
 .column-left {
   width: 33%;
   float: left; }
 
 .column-right {
   float: left;
-  width: 66%; }
+  width: 62%;
+  border-left: 2px solid #353439;
+  padding-left: 2rem; }
 
 .navigation {
   margin-top: 2rem; }
