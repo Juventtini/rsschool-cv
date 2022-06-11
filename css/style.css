@@ -75,6 +75,37 @@ html {
   .about p {
     line-height: 1.7; }
 
+.lineafter {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 2.6rem;
+  justify-content: center;
+  margin: 0 0 0 3rem; }
+  .lineafter__left, .lineafter__right {
+    border-top: 2px solid #353439;
+    flex-grow: 1; }
+
+.circle {
+  background: rgba(135, 166, 229, 0.15);
+  border-radius: 50px;
+  height: 3rem;
+  width: 3rem; }
+  .circle__left {
+    height: 1.3rem;
+    width: 1.3rem;
+    margin-left: .5rem;
+    margin-right: -.5rem;
+    background: rgba(135, 166, 229, 0.15);
+    border-radius: 50px; }
+  .circle__right {
+    margin-left: -.5rem;
+    margin-right: .5rem;
+    background: rgba(135, 166, 229, 0.15);
+    border-radius: 50px;
+    height: 1.3rem;
+    width: 1.3rem; }
+
 .column-left {
   width: 33%;
   float: left; }
