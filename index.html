@@ -4,10 +4,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">    
-    <title>CV</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./css/style.css">    
+    <title>Serhii Kyrylchuk CV</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <header>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li>
+                    <a href="#About" class="navigation__link navigation__link--selected">About</a> 
+                </li>
+                <li>
+                    <a href="#Contact" class="navigation__link">Contact</a>
+                </li>
+                <li>
+                    <a href="#Skills" class="navigation__link">Skills</a>
+                </li>
+                <li>
+                    <a href="#Education" class="navigation__link">Education</a>
+                </li>
+                <li>
+                    <a href="#Projects" class="navigation__link">Projects</a>
+                </li>
+                <li>
+                    <a href="#Languages" class="navigation__link">Languages</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="row">
+                <div class="column-left">
+                    <img src="Image/photo_black.jpg" class="photo" alt="Serhii Kyrylchuk_photo">
+                    <div class="details">
+                        <h1 class="details__name">Serhii <span class="details__name--secondary">Kyrylchuk</span></h1>
+                        <h2 class="details__profession"><span class="details__profession--green">Junior</span> Front-end developer</h2>
+                    </div>
+                    <div class="contact" id="Contact">
+                        <h2 class="section__title">Contact information:</h2>
+                        <ul class="section__list">
+                            <li>
+                                <span class="section__subtitle">Location:</span> Rivne, Ukraine
+                            </li>
+                            <li>
+                                <span class="section__subtitle">Phone:</span> +38 093 468 64 43
+                            </li>
+                            <li>
+                                <span class="section__subtitle">E-mail:</span> Juventtinec@gmail.com
+                            </li>
+                            <li>
+                                <span class="section__subtitle">Telegram:</span> @Juventtinec
+                            </li>
+                        </ul>                        
+                    </div>
+
+                    <div class="education" id="Education">
+                        <h2 class="section__title">Education:</h2>
+                        <ul class="section__list">
+                            <li><span class="section__subtitle">University: <br></span>The National University of Water and Environmental
+                                Engineering, Economist major. 2003-2008</li>
+                        </ul>
+                        <ul class="section__list">
+                            <li><span class="section__subtitle">Courses:</span></li>
+                            <li>CS50 lectures 2021</li>
+                            <li>FreeCodeCamp: Responsive Web Design 2022</li>
+                            <li>Udemy: Modern JS for beginner 2022</li>
+                            <li>Advanced CSS/SASS Course 2022</li>
+                        </ul>
+                    </div>
+                    <h2 class="section__title" id="Languages">Languages:</h2>
+                    <ul class="language-list">
+                        <li><span class="section__subtitle">Ukrainian, Russian:</span> native</li>
+                        <li><span class="section__subtitle">English:</span> A2+ (B1 in progress)</li>
+                        <li><span class="section__subtitle">Polish:</span> A1-A2</li>
+
+                    </ul>
+                </div>
+                <div class="column-right">                    
+                    <div class="about" id="About">
+                        <h2 class="section__title">About Me:</h2>
+                        <p>I’m hard-working and ambitious person. I am an excellent team worker and very willing to learn and develop 
+                            new skills. I believe, that my ability to learn and to gain new skills will lead me through this path of
+                             becoming a proficient Frontend Developer. I have many different experiences. Already managed to work in 
+                             the areas of: Logistics, Trade, Warehouse also tried myself as a private entrepreneur. 
+                             From 2015-2020 was engaged in data analysis and the creation of advertising companies. 
+                             After a year of thinking about who I want to become, I decided to become a web developer. 
+                             I have been following this path since the end of 2021.</p>
+                    </div>
+                    <div class="lineafter">
+                        <div class="lineafter__left"></div>
+                        <div class="circle__left"></div>
+                        <div class="circle"></div>
+                        <div class="circle__right"></div>
+                        <div class="lineafter__right"></div>
+                    </div>
+                    <div class="skills" id="Skills">
+                        <h2 class="section__title">Skills:</h2>
+                        <ul class="skills__list">
+                            <li>
+                                <img src="./Image/html.png" alt="html logo"> <br>HTML
+                            </li>
+                            <li>
+                                <img src="./Image/css.png" alt="CSS logo"> <br>CSS/SASS/SCSS
+                            </li>
+                            <li>
+                                <img src="./Image/js.png" alt="JS logo"> <br>JavaScript
+                            </li>
+                            <li>
+                                <img src="./Image/git.png" alt="git logo"> <br>GIT
+                            </li>
+                        </ul>                        
+                    </div>
+                    <div class="lineafter">
+                        <div class="lineafter__left"></div>
+                        <div class="circle__left"></div>
+                        <div class="circle"></div>
+                        <div class="circle__right"></div>
+                        <div class="lineafter__right"></div>
+                    </div>                   
+                    <div class="code-example">
+                        <h2 class="section__title">Code example:</h2>
+                        <pre><span class="violet">const</span> list <span class="blue">=</span> document.<span class="blue">querySelector</span>(<span class="green">'ul'</span>);
+    <span class="violet">function</span><span class="blue">getTextFromUl</span>(<span class="red">ul</span>) {
+        <span class="violet">if (</span><span class="blue">!(</span><span class="red">ul</span> HTMLElement<span class="blue">)</span><span class="violet">) return</span>;
+        <span class="violet">const [</span>...links<span class="violet">]</span> <span class="blue">=</span> <span class="red">ul</span>.<span class="blue">querySelectorAll</span><span class="violet">(</span><span class="green">'a'</span><span class="violet">)</span> <span class="blue">||</span> <span class="violet">[]</span>;
+        <span class="violet">return</span> links.<span class="blue">map</span><span class="violet">(</span><span class="red">a</span> <span class="violet">=></span> <span class="red">a</span>.<span class="red">textContent</span><span class="violet">)</span>;
+    }
+    console.<span class="blue">log</span>(<span class="blue">getTextFromUl</span><span class="violet">(</span>list<span class="violet">)</span>);</pre>
+                    </div>
+                    <div class="lineafter">
+                        <div class="lineafter__left"></div>
+                        <div class="circle__left"></div>
+                        <div class="circle"></div>
+                        <div class="circle__right"></div>
+                        <div class="lineafter__right"></div>
+                    </div>
+                    <div class="project">
+                        <h2 class="section__title" id="Projects">Projects:</h2>
+                        <a href="https://juventtini.github.io/Natours/" target="_blank"><img src="./Image/project.jpg" alt="Natours Project"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>        
+        <a href="https://github.com/Juventtini" target="_blank"><img src="./Image/github.png" alt="github"></a>
+        <p>2022</p>
+        <a href="https://rs.school/js/" target="_blank"><img src="./Image/rs-logo.svg" alt="github"></a>        
+    </footer>
+    
 </body>
 </html>

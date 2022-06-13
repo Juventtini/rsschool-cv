@@ -1,0 +1,161 @@
+.photo {    
+    margin: 0 auto; 
+    width: 200px;
+    box-shadow: 0 1px 4px rgba($primary-color, 0.8);
+    display: block;
+}
+
+.details {
+    &__name {
+        text-transform: uppercase;
+        font-size: 3.2rem;
+        margin: 4rem 0 0;
+        font-weight: 300;
+        color: $primary-color;
+        font-family: 'Lato', Helvetica, sans-serif;
+        text-align: center;
+
+        &--secondary {
+            color: $secondary-color;
+        }
+    }
+
+    &__profession {
+        text-transform: uppercase;        
+        color: $primary-color;
+        font-size: 1.8rem;
+        letter-spacing: 2px;
+        padding-top: 1rem;
+        text-align: center;
+        border-top: $border;
+
+        &--green {
+            color: $secondary-color;
+        }        
+    }        
+}
+
+.section {
+    &__title {
+        font-size: 1.8rem;
+        margin: 2rem 0.5rem .5rem;
+        color: $primary-color;
+        text-align: center;
+    }
+    &__list {
+        list-style: none;
+        li {
+            padding-left: 1rem;
+        &:not(:first-child) {
+            margin-top: 1rem;        
+            }
+        }
+    }
+    &__subtitle {
+        color: $secondary-color;
+    }
+}
+
+.about, .skills, .code-example, .project {
+    margin: 2.5rem 3rem;
+    p {
+        line-height: 1.7;
+    }
+}
+
+.lineafter {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 2.6rem;
+    justify-content: center;
+    margin: 0 0 0 3rem;
+
+    &__left, &__right {
+        border-top: $border;
+        flex-grow: 1;
+    }
+}
+
+.circle {
+    background: rgba(135, 166, 229, 0.15);
+    border-radius: 50px;
+    height: 3rem;
+    width: 3rem;
+    &__left {        
+        height: 1.3rem;
+        width: 1.3rem;
+        margin-left: .5rem;
+        margin-right: -.5rem;
+        background: rgba(135, 166, 229, 0.15);
+        border-radius: 50px;
+    }
+    &__right {
+        margin-left: -.5rem;
+        margin-right: .5rem;
+        background: rgba(135, 166, 229, 0.15);
+        border-radius: 50px;
+        height: 1.3rem;
+            width: 1.3rem;
+    }
+}
+
+.skills {
+    margin: 1.5rem 3rem;
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.8rem;
+        
+        li {
+            list-style: none;
+            text-align: center;            
+            font-style: bold;
+            img {
+                margin-bottom: 1rem;
+                width: 10rem;
+            }
+        }
+    }
+}
+
+pre {
+    .blue {
+        color: $primary-color;
+    }
+    .green {
+        color: $secondary-color;
+    }
+    .violet {
+        color: rgb(200, 89, 200);
+    }
+    .red {
+        color: rgb(238, 44, 44);
+    }
+}
+.project {
+    img {
+        display: block;
+        margin: 0 auto;
+        height: 30rem;
+    }
+}
+
+.language-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        font-size: 1.4rem;
+        line-height: 1em;
+        margin-bottom: 1rem;
+        font-family: 'Lato', Helvetica, sans-serif;    
+        font-weight: 300;
+        &::before {
+            color: $secondary-color;
+            content: '• ';
+            font-size: 2rem;
+            padding-right: 8px;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.column-left {
+    width: 33%;
+    float: left;
+}
+.column-right {    
+    float: left;
+    width: 62%;
+    border-left: $border;
+    padding-left: 2rem;
+}
