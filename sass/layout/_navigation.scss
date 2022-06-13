@@ -1,5 +1,5 @@
 .navigation {
-    margin-top: 2rem;   
+    margin: 2rem 0;   
     
     &__list {
         margin: 0;
@@ -12,12 +12,6 @@
     li {
         padding-left: 0;
         text-indent: 0;
-        border-left: $border;
-
-        &:last-child {
-            border-right: $border;
-        }
-
         &:before {
             content: none;
         }
