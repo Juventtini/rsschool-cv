@@ -58,7 +58,8 @@ html {
 .section__title {
   font-size: 1.8rem;
   margin: 2rem 0.5rem .5rem;
-  color: #4684d5; }
+  color: #4684d5;
+  text-align: center; }
 
 .section__list {
   list-style: none; }
@@ -70,9 +71,9 @@ html {
 .section__subtitle {
   color: #30ba98; }
 
-.about {
+.about, .skills {
   margin: 1.5rem 3rem; }
-  .about p {
+  .about p, .skills p {
     line-height: 1.7; }
 
 .lineafter {
@@ -105,6 +106,21 @@ html {
     border-radius: 50px;
     height: 1.3rem;
     width: 1.3rem; }
+
+.skills {
+  margin: 1.5rem 3rem; }
+  .skills__list {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.8rem; }
+    .skills__list li {
+      list-style: none;
+      text-align: center;
+      color: #30ba98;
+      font-style: bold; }
+      .skills__list li img {
+        margin-bottom: 1rem;
+        width: 10rem; }
 
 .column-left {
   width: 33%;
