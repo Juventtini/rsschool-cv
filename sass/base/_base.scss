@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.5em;    
+    line-height: 1.7;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;       
+    box-sizing: border-box;
+    background-color: $bgcolor;
+    color: $white-color;
+}
+
+html {
+    font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%    
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
