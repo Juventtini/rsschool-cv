@@ -71,9 +71,9 @@ html {
 .section__subtitle {
   color: #30ba98; }
 
-.about, .skills {
+.about, .skills, .education {
   margin: 1.5rem 3rem; }
-  .about p, .skills p {
+  .about p, .skills p, .education p {
     line-height: 1.7; }
 
 .lineafter {
@@ -116,7 +116,6 @@ html {
     .skills__list li {
       list-style: none;
       text-align: center;
-      color: #30ba98;
       font-style: bold; }
       .skills__list li img {
         margin-bottom: 1rem;
