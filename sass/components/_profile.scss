@@ -56,7 +56,7 @@
     }
 }
 
-.about, .skills, .education {
+.about, .skills, .education, .code-example {
     margin: 1.5rem 3rem;
     p {
         line-height: 1.7;
@@ -116,5 +116,20 @@
                 width: 10rem;
             }
         }
+    }
+}
+
+pre {
+    .blue {
+        color: $primary-color;
+    }
+    .green {
+        color: $secondary-color;
+    }
+    .violet {
+        color: rgb(200, 89, 200);
+    }
+    .red {
+        color: rgb(238, 44, 44);
     }
 }

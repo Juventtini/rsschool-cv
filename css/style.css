@@ -71,9 +71,9 @@ html {
 .section__subtitle {
   color: #30ba98; }
 
-.about, .skills, .education {
+.about, .skills, .education, .code-example {
   margin: 1.5rem 3rem; }
-  .about p, .skills p, .education p {
+  .about p, .skills p, .education p, .code-example p {
     line-height: 1.7; }
 
 .lineafter {
@@ -120,6 +120,18 @@ html {
       .skills__list li img {
         margin-bottom: 1rem;
         width: 10rem; }
+
+pre .blue {
+  color: #4684d5; }
+
+pre .green {
+  color: #30ba98; }
+
+pre .violet {
+  color: #c859c8; }
+
+pre .red {
+  color: #ee2c2c; }
 
 .column-left {
   width: 33%;

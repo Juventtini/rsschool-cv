@@ -122,7 +122,27 @@
                         <div class="circle__right"></div>
                         <div class="lineafter__right"></div>
                     </div>
-                </div>                
+                    <div class="code-example">
+                        <h2 class="section__title">Code example:</h2>
+                        <pre><span class="violet">const</span> list <span class="blue">=</span> document.<span class="blue">querySelector</span>(<span class="green">'ul'</span>);
+    <span class="violet">function</span><span class="blue">getTextFromUl</span>(<span class="red">ul</span>) {
+        <span class="violet">if (</span><span class="blue">!(</span><span class="red">ul</span> HTMLElement<span class="blue">)</span><span class="violet">) return</span>;
+        <span class="violet">const [</span>...links<span class="violet">]</span> <span class="blue">=</span> <span class="red">ul</span>.<span class="blue">querySelectorAll</span><span class="violet">(</span><span class="green">'a'</span><span class="violet">)</span> <span class="blue">||</span> <span class="violet">[]</span>;
+        <span class="violet">return</span> links.<span class="blue">map</span><span class="violet">(</span><span class="red">a</span> <span class="violet">=></span> <span class="red">a</span>.<span class="red">textContent</span><span class="violet">)</span>;
+    }
+    console.<span class="blue">log</span>(<span class="blue">getTextFromUl</span><span class="violet">(</span>list<span class="violet">)</span>);</pre>
+                    </div>
+                    <div class="lineafter">
+                        <div class="lineafter__left"></div>
+                        <div class="circle__left"></div>
+                        <div class="circle"></div>
+                        <div class="circle__right"></div>
+                        <div class="lineafter__right"></div>
+                    </div>
+                    <!-- <div class="project">
+                        <h2 class="section__title" id="Projects">Projects:</h2>
+                    </div> -->
+                </div>
             </div>
         </div>
     </main>
