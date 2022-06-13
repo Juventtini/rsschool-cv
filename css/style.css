@@ -73,7 +73,7 @@ html {
   color: #30ba98; }
 
 .about, .skills, .code-example, .project {
-  margin: 1.5rem 3rem; }
+  margin: 2.5rem 3rem; }
   .about p, .skills p, .code-example p, .project p {
     line-height: 1.7; }
 
@@ -154,6 +154,20 @@ pre .red {
       content: '• ';
       font-size: 2rem;
       padding-right: 8px; }
+
+footer {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #353439; }
+  footer img {
+    height: 7rem; }
+  footer p {
+    font-size: 2rem;
+    color: #4684d5; }
 
 .column-left {
   width: 33%;
