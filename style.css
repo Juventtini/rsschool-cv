@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: aqua;
+    font-size: 30px;
+    align-items: center;
+}
+
+marquee {
+    font-size: 100px;
+    margin-top: 45vh;
+}
