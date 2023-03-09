@@ -1,3 +1,5 @@
+![myPhoto](./img/photo_black.jpg "My photo")
+
 # Serhii Kyrylchuk
 
 ---
