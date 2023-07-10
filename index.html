@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li><a class="navigation__link" href="#contacts">Contact information</a></li>
+                    <li><a class="navigation__link" href="#about">About myself</a></li>
+                    <li><a class="navigation__link" href="#skills">Skills</a></li>
+                    <li><a class="navigation__link" href="#code">Code Example</a></li>
+                    <li><a class="navigation__link" href="#project">Projects</a></li>
+                    <li><a class="navigation__link" href="#education">Education</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="column-left">
+                <img src="./img/photo_black.jpg" alt="my photo" class="photo">
+
+                <div class="details">
+                    <h2 class="details__name">Kyrylchuk <span class="details__name--secondary">Serhii</span></h2>
+                    <h1 class="details__profession"><span class="details__profession--green">Junior</span> Front End
+                    </h1>
+                </div>
+
+                <section class="section">
+                    <h2 class="section__title" id="contacts">Contact information:</h2>
+                    <ul class="section__list">
+                        <li>
+                            <h3 class="section__subtitle">Location:</h3><span>Rivne</span>
+                        </li>
+                        <li>
+                            <h3 class="section__subtitle">Phone:</h3><span>+38 093 468 64 43</span>
+                        </li>
+                        <li>
+                            <h3 class="section__subtitle">E-mail:</h3><span>Juventtinec@gmail.com</span>
+                        </li>
+                        <li>
+                            <h3 class="section__subtitle">Telegram:</h3><span>@Juventtinec
+                            </span>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="section">
+                    <h2 class="section__title" id="education">Education:</h2>
+                    <ul class="section__list">
+                        <li>
+                            <h3 class="section__subtitle">University:</h3><span>The National University of Water and
+                                Environmental Engineering, Economist major.</span>
+                        </li>
+                        <li>
+                            <h3 class="section__subtitle">Courses:</h3>
+                            <UL>
+                                <li>
+                                    <p>CS50 lectures</p>
+                                </li>
+                                <li>
+                                    <p>FreeCodeCamp: Responsive Web Design</p>
+                                </li>
+                                <li>
+                                    <p>Udemy: Modern JS for beginner</p>
+                                </li>
+                                <li>
+                                    <p>Advanced CSS/SASS Course</p>
+                                </li>
+                            </UL>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="section">
+                    <h2 class="section__title">Languages:</h2>
+                    <ul class="section__list">
+                        <li>
+                            <h3 class="section__subtitle">Ukrainian:</h3><span>Native</span>
+                        </li>
+                        <li>
+                            <h3 class="section__subtitle">Russian:</h3><span>Native</span>
+                        </li>
+                        <li>
+                            <h3 class="section__subtitle">English:</h3><span>B1</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="column-right">
+                <section class="section">
+                    <h2 class="section__title" id="about">About myself:</h2>
+                    <div class="about">
+                        I'm hard-working and ambitious person. I am an excellent team worker and very willing to learn
+                        and develop new skills. I believe, that my ability to learn and to gain new skills will lead me
+                        through this path of becoming a proficient Frontend Developer. I have many different
+                        experiences. Already managed to work in the areas of: Logistics, Trade, Warehouse also tried
+                        myself as a private entrepreneur. From 2015-2020 was engaged in data analysis and the creation
+                        of advertising companies. After a year of thinking about who I want to become, I decided to
+                        become a web developer. I have been following this path since the end of 2021.
+                    </div>
+                    <div class="lineafter">
+                        <div class="lineafter__left"></div>
+                        <div class="circle__left"></div>
+                        <div class="circle"></div>
+                        <div class="circle__right"></div>
+                        <div class="lineafter__right"></div>
+                    </div>
+                </section>
+                <section class="section">
+                    <h2 class="section__title" id="skills">Skills:</h2>
+                    <div class="skills">
+                        <ul class="skills__list">
+                            <li>
+                                <img src="./img/HTML5.png" alt="html">
+                                <p>HTML</p>
+                            </li>
+                            <li>
+                                <img src="./img/css-logo.png" alt="css">
+                                <p>CSS/SASS</p>
+                            </li>
+                            <li><img src="./img/pngegg.png" alt="js">
+                                <p>JavaScript</p>
+                            </li>
+                            <li><img src="./img/pngegg123.png" alt="git">
+                                <p>Git</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lineafter">
+                        <div class="lineafter__left"></div>
+                        <div class="circle__left"></div>
+                        <div class="circle"></div>
+                        <div class="circle__right"></div>
+                        <div class="lineafter__right"></div>
+                    </div>
+                </section>
+                <section class="section">
+                    <h2 class="section__title" id="code">Code Example:</h2>
+                    <div class="code-example">
+                        <pre>
+                        <span class="violet">let</span> <span class="red">str</span> <span class="blue">=</span> <span class="green">'i am in the easycode'</span>;
+                        <span class="violet">let</span> <span class="red">res</span> <span class="blue">=</span> '';
+                        <span class="violet">for</span> (<span class="violet">let</span> <span class="red">i</span> <span class="blue">=</span> <span class="green">0</span>; <span class="red">i</span> <span class="blue">&lt;</span> <span class="red">str.length</span>; <span class="red">i</span><span class="blue">++</span>) {
+                            <span class="violet">if</span> (<span class="red">i</span> <span class="blue">===</span> <span class="green">0</span> <span class="blue">||</span> <span class="red">str</span>[<span class="red">i</span> <span class="blue">-</span> <span class="green">1</span>] <span class="blue">===</span> ' ') {
+                                <span class="red">res</span> <span class="blue">+=</span> <span class="red">str[i]</span>.<span class="blue">toUpperCase()</span>;
+                            } <span class="violet">else</span> {
+                                <span class="red">res</span> <span class="blue">+=</span> <span class="red">str[i]</span>;
+                            }
+                        }
+                        console.<span class="blue">log</span>(<span class="red">res</span>);
+                       </pre>
+                    </div>
+                    <div class="lineafter">
+                        <div class="lineafter__left"></div>
+                        <div class="circle__left"></div>
+                        <div class="circle"></div>
+                        <div class="circle__right"></div>
+                        <div class="lineafter__right"></div>
+                    </div>
+                </section>
+                <section class="section">
+                    <h2 class="section__title" id="project">Educational projects:</h2>
+                    <div class="project">
+                        <div class="project__item">
+                            <a href="https://juventtini.github.io/Nexter/" target="_blank"><img src="./img/nexter.png"
+                                    alt="nexter"></a>
+                            <p>Nexter</p>
+                        </div>
+                        <div class="project__item">
+                            <a href="https://juventtini.github.io/Natours/" target="_blank"><img src="./img/natours.png"
+                                    alt="natours"></a>
+                            <p>Natours</p>
+                        </div>
+                        <div class="project__item">
+                            <a href="https://juventtini.github.io/Trillo/" target="_blank"><img src="./img/trillo.png"
+                                    alt="trillo"></a>
+                            <p>Trillo</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+    </div>
+    <footer class="footer">
+        <a href="https://rs.school/js/" target="_blank"><img src="./img/rs_school_js.svg" alt="RSSchool"></a>
+        <p>2023</p>
+        <a href="https://github.com/Juventtini" target="_blank"><img src="./img/github.png" alt="github"></a>
+    </footer>
+</body>
+
+</html>
